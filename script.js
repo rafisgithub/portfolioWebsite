@@ -71,3 +71,9 @@ $(document).ready(function(){
         }
     });
 });
+
+
+    var date = new Date();
+    var res = date.getFullYear();
+    document.getElementById("test").innerHTML = res;
+ 
